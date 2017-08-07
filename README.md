@@ -8,7 +8,7 @@ The purpose of the script is to unify the authentication system of the php based
 * Make a backup of your current reports backend.php, backendAddon.php, banner.php, bannerbody.php, index.php, splash.php files (so you can easily reverse this if anything get broken :)). All files are located in the root directory of the reports app
 * Copy the entire content of this repo into your root directory. This should replace the files listed above as well as create an "openmrs" directory
 * cd into "openmrs" and make "tmp" and "isante_bridge.json" writable
-* Open "isante_bridge.json" in a text editor and change value of "url" to that of your openmrs installation and save.  Example below: https://52.37.13.123:8080 should be your openmrs setup
+* Open "isante_bridge.json" in a text editor and change value of "url" to that of your openmrs installation and save.  Example below: replace https://52.37.13.123:8080 should be your openmrs url
 
 ```
 {
